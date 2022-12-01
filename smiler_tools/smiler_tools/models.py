@@ -37,6 +37,7 @@ https://docs.docker.com/get-docker/
 
 if distutils.spawn.find_executable("docker"):
     DOCKER_INSTALLED = True
+    a = 0
 else:
     DOCKER_INSTALLED = False
 
